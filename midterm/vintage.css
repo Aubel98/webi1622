@@ -1,0 +1,107 @@
+.homeImages {
+    width:150px;
+    height:150px;
+    border: 3px solid black;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+
+
+}
+.homeImages :hover{
+    background-color: #6f42c1;
+}
+
+header a{
+    width: 15%;
+}
+header{
+    height: auto;
+}
+.homeImages2{
+    width:150px;
+    height:150px;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-size: 150%;
+
+
+
+
+
+}
+ul{
+    display: table-row;
+
+}
+nav{
+    display: table;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+    width: 12.5%;
+    color: black;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 1%;
+
+}
+
+nav li img{
+    /*height: 45%;*/
+    width: 55%;
+}
+
+nav li a {
+    /*display: block;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    transition: color 500ms;
+
+}
+nav li a:hover {
+
+    color: #999;
+}
+.header-button{
+    top: 10px;
+    position: relative;
+}
+nav ul a{
+    /*margin-top: 5%;*/
+}
+
+
+
+
+footer ul{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+footer ul li {
+    margin-right: 20px;
+}
+

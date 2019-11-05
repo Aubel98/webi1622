@@ -1,0 +1,57 @@
+-- index --
+
+Welcome to PictureMat.com
+PictureMat.com™ is able to meet all your wholesale picture framing and matting needs with our large selection of pre-cut archival and decorative mat boards from Crescent and Nielsen Bainbridge, picture frame sets, backing and mounting boards, and Clear Bags™.
+
+home image
+Whether it is standard or custom matting, traditional or digital art print size mat board, our prompt delivery, personal service and superb quality, make us your first choice.
+
+PictuerMat.com is committed to creating a website that produces high quality content. Over the next year we will be presenting featured artists, matting tips, latest mat board techniques, inspirational ideas and anything related to photo mats. If you have a question, or would like to see an article about a techniques, send us an email at info@picturemat.com
+
+PictuerMat.com is committed to creating a website that produces high quality content. Over the next year we will be presenting featured artists, matting tips, latest mat board techniques, inspirational ideas and anything related to photo mats. If you have a question, or would like to see an article about a techniques, send us an email at info@picturemat.com
+
+-- sidebar --
+
+DO MORE! with the new GUNNAR F1 HYBRID. The award-winning GUNNAR F1 HYBRID is the world first "hybrid" CMC, and the result of GUNNAR's long industry experience and track record as "pioneers" of the framing industry.
+
+-- footer --
+
+PictureMat.com
+2000 E. University Ave., Minneapolis, MN 55413
+Call toll free 1-877-899-9000
+email demo@picturemat.com
+
+-- items --
+
+Mat Color > Light Blue
+
+Product: Ocean Blue
+Product No: lbob7475
+Price: $12.00 sq/ft
+Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+ Product: Sky Blue
+Product No: lbsb5445
+Price: $12.00 sq/ft
+Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+ Product: Silver Blue
+Product No: lbsvb6523
+Price: $12.00 sq/ft
+Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+ Product: Easter Blue
+Product No: lbeb9323
+Price: $12.00 sq/ft
+Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+-- item --
+
+Mat Title > Ocean Blue
+
+Product: Ocean Blue
+Product No: lbob7475
+Price: $12.00 sq/ft
+Description:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+

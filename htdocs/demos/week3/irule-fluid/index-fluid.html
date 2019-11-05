@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>irule home</title>
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<style type="text/css">
+	/*
+		Note: with the 15px padding on each side of the Bootstrap 1170px grid, The Bootstrap grid columns and gutters add up to 1200px. All math below is based on dividing by 1200px.
+	*/
+	body {color: #333333; font-family: sans-serif;} /* soften the type by making it all dark gray */
+	#wrapper {max-width: 1200px; margin: 0 auto;}
+	header,nav,section,article,footer 
+	{margin: 0; padding: 0;}
+
+	/* style header gray only if its direct parent is a div */
+	div>header
+	{
+		margin-top: 1.25%; /* make the top margin the same as the left section margin */
+		background-color: #cccccc;
+		border-radius: 5px 5px 0 0;
+	}
+	/* this div is used to center the hero image in 11 columns. */
+	header div 
+	{
+		/* 1070px/1200px = 89.1666% */
+		width: 89.1666%;
+		/* 15px/1200px = 1.25% */
+		margin:0 1.25%;
+		/* center hero image*/
+		text-align: center;
+		/*
+		Since padding and margin percentages are based on width not height, I pulled guides in my mockup and figured the padding required in the header when the design is at its full 1200px width. It turned out to be about 40px.
+		*/
+		/* 40px/1200px = 3.3333% */
+		padding: 3.3333% 0;
+	}
+	
+	header div img 
+	{
+		/* 983px/1070px = 91.8691%  note: 1070px is width of div nested in the header. 983px is the width of the hero image */
+		width: 91.8691%;
+		border-radius: 15px;
+	}
+
+	nav 
+	{
+		padding: 10px 0;
+		overflow: auto;
+		border-radius: 0 0 5px 5px;
+		background-color: #000;
+	}
+	ul {margin: 0; padding: 0;}
+	nav ul li
+	{
+		list-style-type: none;
+		padding: 3px 15px;
+		float: left;
+	}
+	nav ul li a
+	{
+		text-decoration: none;
+
+	}
+
+	nav a:link {color: #fff;}
+	nav a:visited {color: #fff;}
+	nav a:hover {font-style: italic;}
+	/* force main to include the floated article elements */
+	main {overflow: auto;}
+	section 
+	{
+		/* 1170px/1200px = 97.5% */
+		width: 97.5%;
+		/* top left/right bottom*/
+		margin:0 1.25%;
+	}
+	section div
+	{
+		-moz-column-count: 2;
+		column-count: 2;			
+		/* 60px/1200px = 5%*/
+		-moz-column-gap: 20px;
+		column-gap: 20px;
+		
+	}
+
+	section div p 
+	{
+		margin: 0; padding: 0; margin-bottom: 20px;
+	}
+	article 
+	{
+		/* 370px/1200px = 30.8333% */
+		width: 30.8333%;
+		/* 15px/1200px = 1.25% */
+		margin: 20px 1.25%;
+		float: left;
+
+	}
+	article h2 {margin: 0;}
+
+	article p {margin: 10px 0;}
+	
+	footer 
+	{
+		height: 25px;
+		clear: both;
+		padding: 10px 0 0 1.25%;
+		background-color: #cccccc;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div>
+				<img src="images/hero.jpg" alt="irule hero image">
+			</div>
+		</header>
+		<nav>
+			<ul>
+			    <li><a href="#">Home</a></li>
+			    <li><a href="#">About</a></li>
+			    <li><a href="#">Investing</a></li>
+			    <li><a href="#">Retirement</a></li>
+			    <li><a href="#">Contact</a></li>
+			  </ul>
+		</nav>
+		<main>
+			<section>
+				<h1>Welcome to iRule1</h1>
+				<div>
+					<p>
+					This site is intended for value investors. For those new to value investing, or especially for those new to investing at all, value investing is going to be soooo common sense, that you may become confused as to why its such a big deal! You see, value investing is all about buying something when it is on big time sale and selling it when it is no longer on sale...yeah I know, it sounds ridiculous. "Buy low sell high" - well duh! 
+					</p>
+
+					<p>
+					One of the tricky aspects of value investing is determining when a company is on sale. First you have to determine what is the companys retail price (aka Intrinsic Value) should be in the 1st place. Then you need to decide what a good SALE price is for that particular company. IRule1 will help you do just that.
+					</p> 
+				</div>
+			</section>
+			<article>
+				<header>
+					<img src="images/s&e.gif" alt="stocks and ETF's">
+					<h2>Stocks and ETF's</h2>
+				</header>
+				<p>
+					We offer the largest selection of stocks and etf's of any online broker. Read about our investment strategy to help you with trading.
+				</p>
+			</article>
+			<article>
+				<header>
+					<img src="images/mf.gif" alt="mutual funds">
+					<h2>Mutual Funds</h2>
+				</header>
+				<p>
+					We offer a large selection of mutual funds at the lowest expense ratios. Ask us about our extensive selection.
+				</p>
+			</article>
+			<article>
+				<header>
+					<img src="images/os.gif" alt="other services">
+					<h2>Our Story</h2>
+				</header>
+				<p>
+					This site is for demo purpose only. You cannot buy investments here.
+				</p>
+			</article>
+		</main>
+		<footer>&copy; irule one</footer>
+	</div>
+</body>
+</html>

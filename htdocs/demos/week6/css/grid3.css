@@ -1,0 +1,27 @@
+#container
+/* force grid container to fill browser vertically */
+height: 100vh;
+display: grid;
+/* create 2 columns, this makes 3 grid lines */
+grid-template-columns: 2fr 1fr;
+
+
+grid-template-rows: 100px minmax(200px, 1fr) 100px;
+grid-gap: 10 px;
+
+
+header, {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+aside, fotter{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
